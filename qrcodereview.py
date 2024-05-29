@@ -1,7 +1,10 @@
 import qrcode
 
-# The URL of your Google review page
-url = "https://www.google.com/maps/place/DHARANI+CARDS/@11.339303,77.7221801,16.97z/data=!3m1!5s0x3ba96f44c6aa88a9:0x23e178a87efc5d3f!4m12!1m2!2m1!1sdharani+cards!3m8!1s0x3ba96f34fe1dfd67:0xa7bf7c6ded40ce9!8m2!3d11.3391921!4d77.7281173!9m1!1b1!15sCg1kaGFyYW5pIGNhcmRzkgEbaW52aXRhdGlvbl9wcmludGluZ19zZXJ2aWNl4AEA!16s%2Fg%2F12hsfnp1w?authuser=2&entry=ttu"
+# Replace with your actual Place ID
+place_id = "ChIJZ_0d_jRvqTsR6QzU3sb3ewo"
+
+# Construct the Google review URL
+url = f"https://search.google.com/local/writereview?placeid={place_id}"
 
 # Generate the QR code
 qr = qrcode.QRCode(
