@@ -2,6 +2,8 @@ To generate a QR code that directly takes users to the Google review page of you
 
 Get the Correct Google Review Link:
 
+https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder
+
 Use the Google Place ID to construct the correct review URL.
 Create a QR Code for the Review Link:
 
